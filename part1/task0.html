@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 0: Responsive Typography</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* --- Default Styles (Mobile First) --- */
+        h1 {
+            font-size: 24px;
+        }
+        p {
+            font-size: 14px;
+        }
+
+        /* --- Tablet Styles --- */
+        @media (min-width: 768px) {
+            h1 {
+                font-size: 36px; /* Medium font on tablet */
+            }
+            p {
+                font-size: 16px;
+            }
+        }
+
+        /* --- Desktop Styles --- */
+        @media (min-width: 992px) {
+            h1 {
+                font-size: 48px; /* Larger font on desktop */
+            }
+            p {
+                font-size: 18px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Responsive Heading</h1>
+    <p>This paragraph's font size changes based on the screen width. Resize your browser window to see the effect!</p>
+</body>
+</html>
