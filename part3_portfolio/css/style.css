@@ -1,0 +1,52 @@
+/* Custom Media Queries for fine-tuning */
+
+body {
+    padding-top: 56px; /* Adjust body padding to account for the fixed navbar */
+}
+
+.sidebar-content {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+}
+
+/* Default Styles (Mobile) */
+.main-heading {
+    font-size: 2rem; /* 32px */
+    text-align: center;
+}
+
+.sub-heading {
+    font-size: 1rem; /* 16px */
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.sidebar-content {
+    margin-top: 30px;
+}
+
+
+/* Tablet Styles */
+@media (min-width: 768px) {
+    .main-heading {
+        font-size: 2.5rem; /* 40px */
+        text-align: left;
+    }
+
+    .sub-heading {
+        font-size: 1.1rem; /* ~18px */
+        text-align: left;
+    }
+}
+
+
+/* Desktop Styles */
+@media (min-width: 992px) {
+    .main-heading {
+        font-size: 3rem; /* 48px */
+    }
+    
+    .sidebar-content {
+        margin-top: 0;
+    }
+}
